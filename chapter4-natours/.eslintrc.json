@@ -1,6 +1,7 @@
 {
   "extends": ["airbnb", "prettier", "plugin:node/recommended"],
   "plugins": ["prettier"],
+  "linebreak-style": ["warn", "windows"],
   "rules": {
     "prettier/prettier": "error",
     "spaced-comment": "off",
